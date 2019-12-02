@@ -4,3 +4,5 @@ Al descargar el project del repositorio hay una carpeta donde esta el scrip para
 tweetsLabs/basedatos/twitterdata.sql
 
 Ejecutar procedimiento consulta y almacenado de datos: php last100tweets.php
+
+Para visualizar la gráfica esta es la URL: http://localhost/TweetsLabs2019/graficas/grafica.php
