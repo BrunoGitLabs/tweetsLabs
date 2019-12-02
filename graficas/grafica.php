@@ -6,7 +6,7 @@
 <?php
 require_once("TwittClass.php");
 
-//Creamos un objeto de la clase randomTable
+//Creamos un objeto de la clase TwittTable
 $rand = new TweetTable();
 
 //obtenemos toda la información de la tabla twitt
@@ -66,7 +66,6 @@ chartCPU = new Highcharts.StockChart({
     series: [{
         name: 'valor',
         data: (function() {
-                // generate an array of random data
                 var data = [];
                 <?php
                     for($i = 0 ;$i<count($rawdata);$i++){
